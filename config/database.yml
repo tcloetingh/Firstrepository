@@ -24,6 +24,7 @@ default: &default
   password: password
   host: localhost
 
+
 development:
   <<: *default
   database: splurty_development
